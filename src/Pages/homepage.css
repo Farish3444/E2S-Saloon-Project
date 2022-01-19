@@ -1,0 +1,84 @@
+.home{
+    display:flex;
+    position:relative;
+}
+
+.cutting{
+    position:absolute;
+    height:700px;
+    width:40% 
+}
+
+.weknow {
+    position: absolute;
+    top: 170px;
+    left: 530px;
+    width: 742px;
+    height: 262px;
+    font-size: 30px;
+    font-family: Dosis;
+    font-style: normal;
+    letter-spacing: 0.10rem;
+  }
+
+  .slogan {
+    color: #fef0a3;
+    position: absolute;
+    left: -3px;
+    font-size: 26px;
+  }
+  
+  .bookbutton {
+    display: block;
+    width: 30%;
+    border: none;
+    background-color: #fef0a3;
+    padding: 14px 28px;
+    font-size: 16px;
+    border-radius: 90px;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    top:500px;
+    justify-content: space-between;
+    left:650px
+  }
+
+@media screen and (min-width:300px) and (max-width:500px){
+    
+    .left{
+        display:relative;
+    }
+
+    .cutting{
+        width:100%;
+        filter: brightness(50%);
+        padding:10px;
+    }
+
+    .right{
+         position:relative;
+         padding:1px;
+         width:110%;   
+    }
+
+    .weknow{
+        width:90%;
+        padding:50px;
+        position:absolute;
+        top:290px;
+        left:-40px;
+        font-size:20px;
+        overflow:hidden;
+    }
+   
+    .bookbutton{
+        position:absolute;        
+        left:7px;
+        top:580px;
+        justify-content: space-between;
+        text-align:center;
+        width:70%;
+    }
+
+}
