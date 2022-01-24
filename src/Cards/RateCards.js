@@ -15,13 +15,18 @@ import Shaving from '../assets/shaving.jpeg';
 const useStyle = makeStyles({
     CardContainer : {
         display:'block',
-        width:"50vw",
-        backgroundColor:"black",
-        height:'25vw'
+        width:"40vw",
+        backgroundColor:"green",
+        height:'25vw',
     },
     heading:{
         color:'black',
-        
+    },
+    "@media (min-width:300px) and (max-width:500px) ":{
+              CardContainer:{
+                  width:"150vw",
+                  height:"90vw"
+              }  
     }
 })
 
@@ -31,7 +36,8 @@ const RateCards = ({heading,image}) => {
 
     return (
         <React.Fragment>
-            <Card sx={{display:'block',width:"40vw",backgroundColor:'smokewhite',height:"25vw"}}>
+            {/* <Card sx={{display:'block',width:"40vw",backgroundColor:'blue',height:"25vw"}}> */}
+            <Card className={`${classes.CardContainer}`}>
       <Box sx={{ display: 'flex', flexDirection: 'column' }}>
     <Box sx={{ display: 'flex', alignItems: 'center', pl: 0, pb: 1 }}>     
       <CardMedia
@@ -50,13 +56,5 @@ const RateCards = ({heading,image}) => {
     )
 }
 
-{/* <CardContent sx={{ flex: '1 0 auto' }}>
-          <Typography component="div" variant="h5">
-            Live From Space
-          </Typography>
-          <Typography variant="subtitle1" color="text.secondary" component="div">
-            Mac Miller
-          </Typography>
-        </CardContent>     */}
 
 export default RateCards

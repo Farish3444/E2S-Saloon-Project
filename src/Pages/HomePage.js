@@ -20,9 +20,6 @@ const HomePage = () => {
          <button className="bookbutton">BOOK AN APPOINMENT</button>
        </a>
 </div>
-<div style={{position:'absolute'}}>
-<Services /> 
-</div>
     </div>
 
     )

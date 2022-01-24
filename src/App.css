@@ -1,6 +1,7 @@
 .App {
-  text-align: center;
-  background-color:black
+  background-color:black;
+  display:flex;
+  flex-Direction:column;
 }
 
 body{
@@ -8,7 +9,7 @@ body{
 }
 
 @media screen and (min-width:300px) and (max-width:500px) {
-  body{
+  /* body{
     background-color:blue
-  }
+  } */
 }
