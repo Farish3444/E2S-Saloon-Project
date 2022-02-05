@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis");
+
+.mainabout {
+  position: absolute;
+  top: 240%;
+  left: 40%;
+}
+
+.abouttitle {
+  font-family: Dosis;
+  color: red;
+  font-size: 50px;
+}
+
+.para {
+  font-family: Dosis;
+  color: #fef0a3;
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  left: -33%;
+}
