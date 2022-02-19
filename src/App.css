@@ -1,14 +1,16 @@
 .App {
-  background-color:black;
-  display:flex;
-  flex-Direction:column;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  width: auto;
 }
 
-body{
-  background-color:black
+body {
+  background-color: black;
+  scrollbar-width: none;
 }
 
-@media screen and (min-width:300px) and (max-width:500px) {
+@media screen and (min-width: 300px) and (max-width: 500px) {
   /* body{
     background-color:blue
   } */

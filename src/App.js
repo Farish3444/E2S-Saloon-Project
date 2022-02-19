@@ -10,8 +10,6 @@ function App() {
       <div>
         <Services />
       </div>
-
-      <Aboutus />
     </div>
   );
 }

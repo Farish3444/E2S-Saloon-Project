@@ -1,0 +1,29 @@
+.card-container {
+  position: relative;
+  width: 50%;
+  border-color: honeydew;
+}
+
+.image {
+  display: block;
+  width: 120%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(48, 9, 155, 0.5);
+  width: 170%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: rgb(251, 255, 0);
+  font-size: 25px;
+  font-weight: bolder;
+  padding: 20px;
+  text-align: center;
+}
+
+.card-container:hover .overlay {
+  opacity: 1;
+}
