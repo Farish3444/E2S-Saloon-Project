@@ -2,6 +2,7 @@ import "./App.css";
 import HomePage from "./Pages/HomePage";
 import Services from "./Services/Services";
 import Aboutus from "./Aboutus/Aboutus";
+import Footer from "./Footer/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div>
         <Services />
       </div>
+      <Footer />
     </div>
   );
 }
