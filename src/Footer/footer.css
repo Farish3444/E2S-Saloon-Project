@@ -2,6 +2,7 @@
   position: relative;
   /* bottom: 220px; */
   top: 1700px;
+  max-width: 100%;
 }
 
 .row {
