@@ -18,6 +18,7 @@ const HomePage = () => {
     </div>
         <a href="tel:9898989898">
          <button className="bookbutton">BOOK AN APPOINMENT</button>
+         {console.log("see offer is Called ")}
        </a>
 </div>
     </div>
