@@ -2,13 +2,13 @@
 
 .mainabout {
   position: absolute;
-  top: 240%;
-  left: 40%;
+  top: 300%;
+  left: 35%;
 }
 
 .abouttitle {
   font-family: Dosis;
-  color: red;
+  color: #fef0a3;
   font-size: 50px;
 }
 
@@ -22,7 +22,23 @@
 }
 
 .teamimg {
+  display: flex;
   width: 100%;
-  position: relative;
+  position: relative; 
   left: -29%;
+}
+
+.title {
+  font-family: Dosis;
+  color: #fef0a3;
+  font-size: 50px;
+  position: absolute;
+  top: 710px;
+  left: 469px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+   .mainabout{
+     display: none;
+   }
 }

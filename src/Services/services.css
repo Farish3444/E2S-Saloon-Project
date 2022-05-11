@@ -15,6 +15,10 @@
   left: 50px;
 }
 
-/* Mobile Responsive */
-/* @media screen and (min-width: 300px) and (max-width: 500px) {
-} */
+
+@media screen and (min-width: 200px) and (max-width: 500px) {
+   .title{
+     /* display: flex; */
+     margin-left: -90%;     
+   }
+}

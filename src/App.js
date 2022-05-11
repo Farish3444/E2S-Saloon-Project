@@ -11,7 +11,9 @@ function App() {
       <div>
         <Services />
       </div>
-      <Footer />
+      <div>
+        <Aboutus />
+      </div>
     </div>
   );
 }

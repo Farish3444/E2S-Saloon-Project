@@ -30,6 +30,10 @@ img {
   background: linear-gradient(to right, #ffffff, #ece9e6);
 }
 
+.card:hover{
+  transform: scale(1.1);
+}
+
 .card_body {
   padding: 1rem;
   display: flex;
@@ -61,4 +65,8 @@ img {
 p {
   font-family: Dosis;
   font-size: 150%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+ 
 }

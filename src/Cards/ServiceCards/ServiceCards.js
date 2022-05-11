@@ -5,6 +5,8 @@ import womenhair from "../../assets/womenhair.jpeg";
 import bridal from "../../assets/bridal.jpg";
 import bridal2 from "../../assets/bridal2.jpg";
 
+
+
 const ServiceCards = () => {
   return (
     <React.Fragment>

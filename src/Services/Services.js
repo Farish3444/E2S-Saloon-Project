@@ -10,7 +10,10 @@ const Services = () => {
   return (
     <>
       <h1 className="title"> OUR SERVICES </h1>
+      <br />
       <div className="allcards">
+        <br />
+        <br />
         <ServiceCards />
       </div>
     </>
